@@ -47,7 +47,7 @@ int main() {
         printf("Passo: %d cima\n", movimentocavalo); //imprime a direção do movimento cima
     }    
     do {
-        printf("Passo: %d direita!\n",movimentocavalo);  //imprime a direção do movimento direita
+        printf("Passo: %d direita\n",movimentocavalo);  //imprime a direção do movimento direita
                  movimentocavalo++;
         
         } while (movimentocavalo <= 1);
