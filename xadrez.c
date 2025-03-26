@@ -2,6 +2,7 @@
 int main(){
     int movimentobispo = 1;
     int movimentorainha = 1;
+    int movimentocavalo, segundomovimento;
     
     // mover a torre 
     printf("Movendo a torre:\n");
@@ -24,6 +25,15 @@ int main(){
         printf("Passo: %d Esquerda!\n", movimentorainha); //imprime a direção do movimento
         movimentorainha++;
     }
-    
+     
+    //mover o cavalo
+    printf("\nMovendo o Cavalo:\n");
+    for (movimentocavalo = 1; movimentocavalo <= 2; movimentocavalo++) {
+        printf("Passo: %d cima\n", movimentocavalo); //imprime a direção do movimento cima
+    }    
+        for(segundomovimento = 1; segundomovimento <= 1; segundomovimento++) {
+        printf("Passo: %d direita\n", segundomovimento); //imprime a direção do movimento direta
+    }
+
     return 0;
 }
